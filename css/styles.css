@@ -1,0 +1,146 @@
+/*  Color Pallete #ffd1bd  #ffb0cd #ffffff #c2f0fc  */
+
+body {
+  background-color: #ffd1bd;
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color:  #11999E;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+
+.top-container{
+  background-color: #c2f0fc;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #ffd1bd ;
+  margin: 100px 0;
+
+}
+.bottom-container {
+  background-color: #ffb0cd;
+  padding: 50px 0 20px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top:50px
+}
+.bottom-cloud{
+  position: absolute;
+  left:300px;
+  bottom: 300px;
+}
+
+.profile-photo {
+  width: 256px;
+  height: 256px;
+  border-style: solid;
+  border-width: thick;
+  border-color: white;
+  border-radius: 150px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+  padding-bottom: 50px;
+
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.painter-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+
+}
+
+.graphic-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+
+
+
+.myButton {
+	box-shadow:inset -22px 42px 0 -24px #e67a73;
+	background-color:#e4685d;
+	border-radius:11px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:24px;
+	padding:9px 31px;
+	text-decoration:none;
+	text-shadow:-1px -1px 1px #b23e35;
+}
+.myButton:hover {
+	background-color:#b23e35;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
